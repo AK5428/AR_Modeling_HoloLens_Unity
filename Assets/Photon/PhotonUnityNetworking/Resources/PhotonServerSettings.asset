@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f3758f8f58fdef43803eb9be1df0608, type: 3}
+  m_Name: PhotonServerSettings
+  m_EditorClassIdentifier: 
+  AppSettings:
+    AppIdRealtime: 4efcdad4-eb78-4d09-893c-3c4653d5b6aa
+    AppIdFusion: 
+    AppIdChat: 
+    AppIdVoice: 
+    AppVersion: 
+    UseNameServer: 1
+    FixedRegion: 
+    Server: 
+    Port: 0
+    ProxyServer: 
+    Protocol: 1
+    EnableProtocolFallback: 1
+    AuthMode: 0
+    EnableLobbyStatistics: 0
+    NetworkLogging: 1
+  DevRegion: asia
+  PunLogging: 0
+  EnableSupportLogger: 0
+  RunInBackground: 1
+  StartInOfflineMode: 0
+  RpcList:
+  - ClickRpc
+  - DestroyRpc
+  - DestroySpaceship
+  - Fire
+  - PunRPC_ResetPlacement
+  - PunRPC_SetNickName
+  - PunRPC_SetPlacement
+  - PunRPC_ShareAzureAnchorId
+  - PunRPC_ToggleExplodedView
+  - PunRPC_TogglePlacementHints
+  - RespawnSpaceship
+  - AddKeyPoint
+  - PaintInitial
+  - RPC_SetLine
+  - RPC_UpdateLine
+  - RPC_StorePunObject
+  - CreateLineRenderInfo
+  - UpdateLineAndPoint
+  - CloseLine
+  - RPC_ChangePosition
+  - AxisInitial
+  - AddFirstKeyPoint
+  - EndSweepPaint
+  - PaintInitial_SweepRail
+  - SwitchSweepPaint
+  - CreateFatherObj
+  - RPC_CreateRhinoMesh
+  - RPC_CreateFatherObj
+  - DestoryModel
+  - DestoryPunModel
+  - DestoryLineAndPoints
+  - CreateModel
+  - RPC_CreateModel
+  - RPC_PaintInitial_SweepRail
+  - ChangeNameForFatherObj
+  - ChangeNameForMeshObj
+  - FatherObjSync
+  - MeshObjSync
+  - RPC_CreateBounding
+  - UpdateModeAndState
+  - RPC_UpdateChosenState
+  - SetSonObjsToGroupParent
+  - SetStateForGroupParent
+  - SetStateForGroupSon
+  - RPC_Ungroup
+  - RPC_Copy_single
+  - Copy_Single
+  - SetFatherObj
+  - SetFatherObjName
+  - CopyMesh
+  - RPC_Copy_Single
+  - BoundingObjUpdate
+  - RPC_Remove
+  - RPC_Revocation
+  - UpdateRotation
+  - UpdateScale
+  - UpdatePosition
+  - RPC_ClearModel
+  - RPC_UpdateLockState
+  - RPC_SetLock
+  DisableAutoOpenWizard: 1
+  ShowSettings: 1
+  DevRegionSetOnce: 1
